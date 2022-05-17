@@ -1,0 +1,42 @@
+body{
+    margin: 5px 4px 5px 4px;
+    background-color: bisque;
+    padding: 4px 4px 4px 4px;
+
+}
+.search{
+    margin-top: 160px;
+    box-shadow:whitesmoke;
+
+}
+
+input[type=text]{
+    width: 300px;
+    background-color: aqua;
+    text-decoration: none;
+    transition: 0.3s;
+    transition-property: width;
+    border-radius: 23px;
+    height: 40px;
+}
+input[type=text]:focus{
+    width: 370px;
+    background-color: chartreuse;
+    text-decoration: none;
+    border-radius: 14px;
+}
+button{
+    color: black;
+    border: 2px black;
+    background-color: chartreuse;
+    width: 70px;
+    height: 38px;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 4px 4px 4px 4px;
+}
+.search-btn:hover{
+    background-color: aqua;
+    border-radius: 9px;
+    border: 2px dashed;
+}
